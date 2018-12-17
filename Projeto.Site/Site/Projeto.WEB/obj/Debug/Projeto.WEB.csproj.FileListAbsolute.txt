@@ -1,0 +1,36 @@
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll.config
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.pdb
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CoreCompileInputs.cache
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.dll
+C:\Users\Conan\Desktop\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.pdb
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll.config
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.pdb
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csprojResolveAssemblyReference.cache
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.dll
+C:\Users\lfran\OneDrive\Área de Trabalho\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.pdb
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll.config
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.pdb
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csprojAssemblyReference.cache
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CoreCompileInputs.cache
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CopyComplete
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.dll
+D:\Projetos\Orbita\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.pdb
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll.config
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.dll
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\bin\Projeto.WEB.pdb
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csprojAssemblyReference.cache
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CoreCompileInputs.cache
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CopyComplete
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.dll
+D:\Projetos\TCE-RJ\Projeto.Site\Site\Projeto.WEB\obj\Debug\Projeto.WEB.pdb

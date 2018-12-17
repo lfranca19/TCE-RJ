@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Sistema WEB.API</title>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js">
+
+    </script>
+
+    <script type="text/javascript">
+
+        angular.module('projeto', [])
+            .directive('ngFiles', ['$parse', function ($parse) {
+
+                function fn_link(scope, element, attrs) {
+
+                    var onChange = $parse(attrs.ngFiles);
+
+                    element.on('change', function (event) {
+
+                        onChange(scope, { $files: event.target.files });
+                    });
+                };
+
+                return {
+
+                    link: fn_link
+
+                }
+
+            }])
+
+            .controller('uploadController', function ($scope, $http) {
+
+                var dados = new FormData();
+                                $scope.getTheFiles = function ($files) {
+
+                    angular.forEach($files, function (value, key) {
+
+                        dados.append(key, value);
+                    });
+                };
+
+                $scope.uploadFiles = function () {
+                    //alert(JSON.stringify($scope.model)); 
+                    $http.post("http://localhost:60736/api/livro/cadastrar", $scope.model)   
+                        .then(function (d) {
+                            $scope.mensagem = d.data;
+                            $scope.model = { ISBN: "", Autor: "", Nome: "", Preco: "", Data_Publicacao: "" };
+                        })
+                        .catch(function (e) { 
+                            if (e.status == 400) {
+                                $scope.mensagem = "";
+                                $scope.errosvalidacao = e.data;
+                            }
+                            else if (e.status == 403) {
+                                $scope.mensagem = e.data;
+                            } 
+                            else if (e.status == 500) {
+                                $scope.mensagem = "Erro: " + e.data;
+                            }
+                        });
+                    
+
+                }
+
+            });
+
+    </script>
+
+</head>
+
+<body class="container" ng-app="projeto">
+
+    <h4>Cadastrar Livro</h4>
+    <hr />
+    <ul>
+        <li><a href="/Home/admin.html">Pagina inicial</a></li>
+    </ul>
+
+    <div class="well col-md-3" ng-controller="uploadController">
+
+        <label>ISBN:</label> <br />
+
+        <input type="text" id="ISBN" name="ISBN" class="form-control" placeholder="Numero ISBN"  ng-model="model.ISBN" />
+
+        <br />
+
+        <label>Autor:</label> <br />
+
+        <input type="text" id="Autor" name="Autor" class="form-control" placeholder="Nome do Autor" ng-model="model.Autor"/>
+
+        <br />
+
+        <label>Nome:</label> <br />
+
+        <input type="text" id="Nome" name="Nome" class="form-control" placeholder="Nome do Livro" ng-model="model.Nome"/>
+
+        <br />
+
+        <label>Preço:</label> <br />
+
+        <input type="text" id="Preco" name="Preco" class="form-control" placeholder="R$ 0,00" ng-model="model.Preco"/>
+
+        <br />
+
+        <label>Data Publicacao:</label> <br />
+
+        <input type="date" id="Data_Publicacao" name="Data_Publicacao" class="form-control" placeholder="dd/mm/yyyy" ng-model="model.Data_Publicacao"/>
+
+        <br />
+
+        <label>Selecione o Arquivo desejado:</label> <br />
+
+        <input type="file" id="file1" name="Imagem_Capa" multiple accept="image/*" class="form-control" ng-files="getTheFiles($files)" />
+
+        <br />
+
+        <input type="button" ng-click="uploadFiles()" value="Enviar para o Servidor" class="btn btn-primary btn-block" />
+
+        <br /><br />
+
+        {{mensagem}}
+
+    </div>
+
+</body>
+
+</html>
